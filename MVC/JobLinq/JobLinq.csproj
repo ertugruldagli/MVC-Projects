@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\about.html" />
     <Content Remove="wwwroot\assets\css\animate.min.css" />
     <Content Remove="wwwroot\assets\css\bootstrap.min.css" />
     <Content Remove="wwwroot\assets\css\flaticon.css" />
@@ -206,6 +207,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\about.html" />
     <None Include="wwwroot\assets\css\animate.min.css" />
     <None Include="wwwroot\assets\css\bootstrap.min.css" />
     <None Include="wwwroot\assets\css\flaticon.css" />
@@ -402,6 +404,10 @@
     <None Include="wwwroot\assets\scss\_team.scss" />
     <None Include="wwwroot\assets\scss\_testimonial.scss" />
     <None Include="wwwroot\assets\scss\_variables.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
   </ItemGroup>
 
 </Project>
