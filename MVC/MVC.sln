@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLinq", "JobLinq\JobLinq.csproj", "{EA2E7093-05BB-4F52-881A-7F96461F0D82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobLinq", "JobLinq\JobLinq.csproj", "{EA2E7093-05BB-4F52-881A-7F96461F0D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{256F0715-6882-4A09-9BCD-51BDD90EE064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EA2E7093-05BB-4F52-881A-7F96461F0D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA2E7093-05BB-4F52-881A-7F96461F0D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA2E7093-05BB-4F52-881A-7F96461F0D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256F0715-6882-4A09-9BCD-51BDD90EE064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256F0715-6882-4A09-9BCD-51BDD90EE064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256F0715-6882-4A09-9BCD-51BDD90EE064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256F0715-6882-4A09-9BCD-51BDD90EE064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
